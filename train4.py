@@ -17,7 +17,7 @@ CONFIG = {
     "FOCUS": "gaussian",
     "DROPOUT": 0.1,
     "BATCH_SIZE": 1024,
-    "LEARNING_RATE": 5e-5, # [5e-4, 5e-5] 범위
+    "LEARNING_RATE": 5e-4, # [5e-4, 5e-5] 범위
     "WEIGHT_DECAY": 1e-2, # lr 줄어드는 속도. 현재 값이 기본값
     "T_MAX": 350, # wandb에서 보고 1 epoch에 들어 있는 step size의 5배를 해줘세요
     "ETA_MIN": 1e-7, # lr 최솟값. 보통 조정할 필요 없음.
